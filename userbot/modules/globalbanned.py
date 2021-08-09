@@ -135,7 +135,7 @@ async def gban(event):
         pass
     if gban_sql.is_gbanned(user.id):  # fixes languange by Apis
         await gbun.edit(
-            f"**Pengguna** [Ini](tg://user?id={user.id}) **sudah ada di daftar gbanned**"
+            f"**Pengguna** [JAMET](tg://user?id={user.id}) **sudah ada di daftar gbanned**"
         )
     else:
         gban_sql.freakgban(user.id, reason)
@@ -163,11 +163,11 @@ async def gban(event):
     timetaken = (end - start).seconds
     if reason:
         await gbun.edit(
-            f"╭─━━━━━━━━━━━━━━━━─╮\nㅤ  ㅤ[⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/LynxUserbot)\n╭─━━━━━━━━━━━━━━━━─╯\n**│• GBAN By :** `{ALIVE_NAME}`\n**│• User Account :** [{user.first_name}](tg://user?id={user.id})\n**│• Jumlah :** `{count}` **Group, Dalam** `{timetaken}` **Detik**\n**│• Reason :** `{reason}`\n**│• Action :** `GBanned` ✅\n╰━━━━━━━━━━━━━━━━━━╯"
+            f"╭─━━━━━━━━━━━━━━━━─╮\nㅤ  ㅤ[⚡𝙆𝙮𝙮-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/sokapgblg)\n╭─━━━━━━━━━━━━━━━━─╯\n**│• GBAN By :** `{ALIVE_NAME}`\n**│• User Account :** [{user.first_name}](tg://user?id={user.id})\n**│• Jumlah :** `{count}` **Group, Dalam** `{timetaken}` **Detik**\n**│• Reason :** `{reason}`\n**│• Action :** `GBanned` ✅\n╰━━━━━━━━━━━━━━━━━━╯"
         )
     else:
         await gbun.edit(
-            f"╭─━━━━━━━━━━━━━━━━─╮\nㅤ  ㅤ[⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/LynxUserbot)\n╭─━━━━━━━━━━━━━━━━─╯\n**│• GBAN By :** `{ALIVE_NAME}`\n**│• User Account :** [{user.first_name}](tg://user?id={user.id})\n**│• Jumlah :** `{count}` **Group, Dalam** `{timetaken}` **Detik**\n**│• Action :** `GBanned` ✅\n╰━━━━━━━━━━━━━━━━━━╯"
+            f"╭─━━━━━━━━━━━━━━━━─╮\nㅤ  ㅤ[⚡𝙆𝙮𝙮-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/sokapgblg)\n╭─━━━━━━━━━━━━━━━━─╯\n**│• GBAN By :** `{ALIVE_NAME}`\n**│• User Account :** [{user.first_name}](tg://user?id={user.id})\n**│• Jumlah :** `{count}` **Group, Dalam** `{timetaken}` **Detik**\n**│• Action :** `GBanned` ✅\n╰━━━━━━━━━━━━━━━━━━╯"
         )
 
     if BOTLOG and count != 0:
