@@ -9,22 +9,21 @@ async def usit(e):
         f"**Hai {DEFAULTUSER} 🐈 Jika Anda Tidak Tau Perintah Untuk Memerintah Ku,\nKetik:** `.help` Atau Bisa Minta Bantuan Ke\n"
         "\n📬**Developer :**"
         "\n[Telegram](t.me/TeamSecret_Kz)"
-        "\n[Dev Repo](https://github.com/KENZO-404)"
-        "\n[Instagram](instagram.com/si_axeell)")
+        "\n[Dev Repo](https://t.me/sokapgblg)"
 
 
 @register(outgoing=True, pattern="^.vars$")
 async def var(m):
     await m.edit(
         f"**Daftar Vars Untuk {DEFAULTUSER}:**\n"
-        "\nClick » [ [Lynx-VARS](https://raw.githubusercontent.com/KENZO-404/Lynx-Userbot/Lynx-Userbot/varshelper.txt) ] «")
+        "\nClick » [ [Kyy-VARS](https://raw.githubusercontent.com/KENZO-404/Lynx-Userbot/Lynx-Userbot/varshelper.txt) ] «")
 
 
 CMD_HELP.update({
     "lynxhelper":
-    "✘ Pʟᴜɢɪɴ : Lynx Helper\
+    "✘ Pʟᴜɢɪɴ : Kyy Helper\
 \n\n⚡𝘾𝙈𝘿⚡: `.lhelp`\
-\n↳ : Bantuan Untuk User Lynx.\
+\n↳ : Bantuan Untuk Userbot Kyy.\
 \n\n⚡𝘾𝙈𝘿⚡: `.vars`\
-\n↳ : Melihat Daftar Vars Lynx-Userbot."
+\n↳ : Melihat Daftar Vars Kyy-Userbot."
 })
